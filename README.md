@@ -1,10 +1,10 @@
-# R3.12 TD2 2026/2027
+# Template de projet Tailwind CSS 4 avec ViteJS
 
-## Installation deTailwind CSS 4
+## Installation de Tailwind CSS 4
 
-[installation](https://tailwindcss.com/docs/installation/using-vite)
+[Installation](https://tailwindcss.com/docs/installation/using-vite)
 
-- Créer un dossier `TD2-TailwindCSS` sur le bureau et l'ouvrir dans VSCode
+- Créer un dossier `...-TailwindCSS` sur le bureau et l'ouvrir dans VSCode
 
 - Initialiser un projet Vite avec React JS et installer TailwindCSS
 
@@ -87,36 +87,6 @@ TD2-TailwindCSS/
 
 ---
 
-## Exercices :
-
-### Exercice 1 : Créer une carte Call to Action avec TailwindCSS
-
-- 1 Créer une carte Call to Action avec TailwindCSS en utilisant les classes de base ([couleur indigo](https://tailwindcss.com/docs/customizing-colors#default-color-palette)).
-
-![image](Ecran/Exo1_S.png)
-![image](Ecran/Exo1_M.png)
-
-```html
-<!-- Card Component -->
-<article class="">
-  <h2 class="">
-    Focus on your content.
-    <br />
-    We handle the distribution.
-  </h2>
-  <p class="">
-    Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada
-    adipiscing sagittis vel nulla nec.
-  </p>
-  <div class="">
-    <a href="#" class=""> Get started </a>
-    <a href="#" class=""> Live demo </a>
-  </div>
-</article>
-```
-
-### Exercice 2 : Créer un thème clair et un thème sombre avec TailwindCSS
-
 - 2 Configuration des Variables CSS dans le fichier `style.css`
 
 ```css
@@ -151,10 +121,6 @@ TD2-TailwindCSS/
   }
 }
 ```
-
-- Créer des thèmes Red, Neon ...
-
-![](Ecran/Exo_Final.png)
 
 ## Remarques : Tokens CSS : primitif vs sémantique
 
