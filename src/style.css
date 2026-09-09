@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-card-background: var(--clr-card-background);
+  --color-card-text: var(--clr-card-text);
+  --color-card-background-hover: var(--clr-card-background-hover);
+  --color-btn-background: var(--clr-btn-background);
+  --color-p-text: var(--clr-p-text);
+  --color-text-btn: var(--clr-text-btn);
+  --color-text-btn-hover: var(--clr-text-btn-hover);
+}
+
+@layer base {
+  :root {
+    /*Token primitives (couleurs de base) */
+    --clr-indigo-600: oklch(51.1% 0.262 276.966);
+    --clr-white: oklch(100% 0 0);
+    --clr-indigo-200: oklch(92.2% 0.098 276.966);
+    --clr-indigo-100: oklch(97.2% 0.051 276.966);
+    --clr-indigo-400: oklch(70.2% 0.187 276.966);
+
+    /*green theme test*/
+    --clr-green-400: hsl(110 74.7% 44.9%);
+
+    /*Token semantic (il dit à quoi li va servir)*/
+    --clr-card-background: var(--clr-indigo-600);
+    --clr-card-text: var(--clr-indigo-200);
+    --clr-card-background-hover: var(--clr-indigo-100);
+    --clr-btn-background: var(--clr-indigo-400);
+    --clr-p-text: var(--clr-indigo-200);
+    --clr-text-btn: var(--clr-indigo-100);
+    --clr-text-btn-hover: var(--clr-white);
+  }
+}
+
+.bouton--white {
+  --clr-btn-background: var(--clr-white);
+  --clr-text-btn: var(--clr-indigo-600);
+  --clr-text-btn-hover: var(--clr-indigo-600);
+}
+
+.themeGreen {
+  --clr-card-background: var(--clr-green-400);
+}
